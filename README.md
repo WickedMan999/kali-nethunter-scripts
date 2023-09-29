@@ -1,7 +1,7 @@
 <img src="https://thehackernews.com/images/-PjqnNgguRMA/VCLCBQs4n8I/AAAAAAAAgc8/q-p2EvEKDW0/s728/Kali-Linux-nethunter-hacking-tool-download.jpg" alt="Nethunter Logo" style="max-width:100%;">
 
 # Kali Net Hunter #
-This is ducky script for ``` Kali Nethunter ``` on Adnroid devices. It consists of both Root & Rootless installation.
+This is ducky script for ``` Kali Nethunter ``` on Android devices. It consists of both Root & Rootless installation.
 
 [Without Root](https://www.kali.org/docs/nethunter/nethunter-rootless/)
 [Root](https://store.nethunter.com/en/)
