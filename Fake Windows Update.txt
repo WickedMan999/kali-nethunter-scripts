@@ -1,0 +1,9 @@
+REM ######## Open Run ########
+GUI r
+DELAY 30
+
+REM ######## Open fake windows update on edge ########
+STRING iexplore -k https://fakeupdate.net/win10ue/
+REM you can do it with edge but you will get a notification to press F11 to exit the full screen
+REM msegde --start-fullscreen https://fakeupdate.net/win10ue/
+ENTER
