@@ -1,0 +1,13 @@
+REM ######## Open Run ########
+GUI r
+DELAY 300
+STRING cmd
+DELAY 200
+
+REM ######## Run Command Prompt as Admin ########
+CTRL SHIFT ENTER
+DELAY 1500
+ALT y
+DELAY 500
+ENTER
+DELAY 1000
