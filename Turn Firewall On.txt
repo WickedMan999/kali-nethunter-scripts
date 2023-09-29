@@ -1,0 +1,19 @@
+REM ######## Turn Firewall OFF ########
+DELAY 1000
+GUI r
+DELAY 100
+STRING powershell Start-Process powershell -Verb runAs
+ENTER
+DELAY 2000
+ALT y
+DELAY 1000
+DELAY 100
+
+REM ######## Turn on firewall on all profile ########
+STRING netsh advfirewall set allprofiles state on
+ENTER
+DELAY 100
+STRING exit
+ENTER
+
+
